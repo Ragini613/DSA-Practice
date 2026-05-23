@@ -1,5 +1,5 @@
 // Question: Two numbers dhundo jinka sum target ho
-// Input: [2,7,11,15], target=9 → Output: [0,1]
+// Input: [2,7,11,15], target=9 → Output: [0,1] need tpo find position not number(index) 
 // Approach: Brute Force — har pair check karo
 // Time: O(n²) | Space: O(1)
 
