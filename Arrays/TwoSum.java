@@ -1,0 +1,17 @@
+// Question: Two numbers dhundo jinka sum target ho
+// Input: [2,7,11,15], target=9 → Output: [0,1]
+// Approach: Brute Force — har pair check karo
+// Time: O(n²) | Space: O(1)
+
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        for(int i = 0; i < nums.length; i++){
+            for(int j = i + 1; j < nums.length; j++){
+                if(nums[i] + nums[j] == target){
+                    return new int[]{i, j};
+                }
+            }
+        }
+        return new int[]{};
+    }
+}
